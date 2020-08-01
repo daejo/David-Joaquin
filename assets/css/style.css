@@ -203,15 +203,6 @@ p {
   background: linear-gradient(to bottom, #59476f 30%, #7b88d1 100%);
 }
 
-span {
-  position: relative;
-  top: 0%;
-  left: 55%;
-  border-radius: 100%;
-  background-color: #fff;
-  z-index: 10;
-}
-
 .st4 {
   fill: #f8c56f;
   opacity: 1;
@@ -292,29 +283,6 @@ span {
 .info {
   position: absolute;
   top: 10%;
-}
-
-h3 {
-  text-align: center;
-  text-shadow: 0px 0px 10px #eee;
-  color: #eee;
-  letter-spacing: 2px;
-}
-
-h4 {
-  color: #111;
-  position: absolute;
-  top: 30%;
-  left: 30%;
-  letter-spacing: 2px;
-}
-
-h1 {
-  color: #111;
-  position: fixed;
-  top: 0%;
-  left: 30%;
-  letter-spacing: 2px;
 }
 
 p {
