@@ -72,6 +72,7 @@ a {
     text-decoration: none;
 }
 
+/* SPLASH PAGE WELCOME SCREEN */
 .grid {
   display:grid;
   grid-template-columns: 1.3fr 2fr;    
@@ -84,7 +85,9 @@ a {
   width: 100%;
   padding-left: 50px;
 }
+/* SPLASH PAGE IMAGE END */
 
+/* MEDIA LINKS NESTED GRID */
 .nested {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -103,6 +106,7 @@ a {
   transform: scale(1.2);
   transition: 1s ease;
   }
+  /* NESTED GRID END */
 
 .headline {
   font-size: 7vw;
@@ -286,8 +290,8 @@ p {
 }
 /*FLIP CARD CSS ENDS*/
 
-/* PORTFOLIO GALLERY CSS START */
 
+/* PORTFOLIO GALLERY CSS START */
 .portfolio {
   font-size: 50px;
   text-align: center;
@@ -301,8 +305,9 @@ p {
 
 .content {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-auto-rows: 100px 300px;
+  /* grid-template-columns: repeat(3,1fr); */
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-auto-rows: 300px 100px;
   grid-gap: 10px;
 }
 
@@ -422,7 +427,12 @@ footer a {
   }
 
   .portfolio {
-    margin-top: -300px; 
+    margin-top: -350px;
+    font-size: 30px; 
+  }
+
+  .about-me {
+    font-size: 30px;
   }
 
 }
