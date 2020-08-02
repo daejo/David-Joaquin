@@ -14,6 +14,6 @@ so that they can review samples of my work and assess whether I'm a good fit for
 https://daejo.github.io/David-Joaquin/
 
 ## Contribution
-Made with ❤️ by David Joaquin
+Created by David Joaquin
 
-### ©️2019 Run Buddy, Inc 
+### ©️2020 daejo digital imagery
